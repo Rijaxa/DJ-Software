@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="L2c6Do" name="Otodecks" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" defines="JUCE_MODAL_LOOPS_PERMITTED=1">
+  <MAINGROUP id="GLYIwV" name="Otodecks">
+    <GROUP id="{463BE72C-68C7-DD8E-121A-E5C6380E1862}" name="Source">
+      <FILE id="XS5KAR" name="DeckGUI.h" compile="0" resource="0" file="Source/DeckGUI.h"/>
+      <FILE id="csH6ee" name="DeckGUI.cpp" compile="1" resource="0" file="Source/DeckGUI.cpp"/>
+      <FILE id="asYnz9" name="DJAudioPlayer.h" compile="0" resource="0" file="Source/DJAudioPlayer.h"/>
+      <FILE id="sZDcbZ" name="DJAudioPlayer.cpp" compile="1" resource="0"
+            file="Source/DJAudioPlayer.cpp"/>
+      <FILE id="HqjVgx" name="LoopRecorder.h" compile="0" resource="0" file="Source/LoopRecorder.h"/>
+      <FILE id="anumGG" name="LoopRecorder.cpp" compile="1" resource="0"
+            file="Source/LoopRecorder.cpp"/>
+      <FILE id="vA5vA3" name="LoopSamplerPanel.cpp" compile="1" resource="0"
+            file="Source/LoopSamplerPanel.cpp"/>
+      <FILE id="BHByf2" name="LoopSamplerPanel.h" compile="0" resource="0"
+            file="Source/LoopSamplerPanel.h"/>
+      <FILE id="Lg3JIG" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="pskGk0" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="psKTLX" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="npmBEw" name="MusicLibrary.cpp" compile="1" resource="0"
+            file="Source/MusicLibrary.cpp"/>
+      <FILE id="sHKYe2" name="MusicLibrary.h" compile="0" resource="0" file="Source/MusicLibrary.h"/>
+      <FILE id="Z83eeb" name="PlaylistComponent.h" compile="0" resource="0"
+            file="Source/PlaylistComponent.h"/>
+      <FILE id="z8utgI" name="PlaylistComponent.cpp" compile="1" resource="0"
+            file="Source/PlaylistComponent.cpp"/>
+      <FILE id="jTRP9r" name="PlaylistEntry.h" compile="0" resource="0" file="Source/PlaylistEntry.h"/>
+      <FILE id="c9OxEc" name="PlaylistEntry.cpp" compile="1" resource="0"
+            file="Source/PlaylistEntry.cpp"/>
+      <FILE id="Qw0NET" name="SampleEntry.h" compile="0" resource="0" file="Source/SampleEntry.h"/>
+      <FILE id="UfZ6qk" name="SampleEntry.cpp" compile="1" resource="0" file="Source/SampleEntry.cpp"/>
+      <FILE id="ag7td1" name="SessionManager.h" compile="0" resource="0"
+            file="Source/SessionManager.h"/>
+      <FILE id="aZWD2F" name="SessionManager.cpp" compile="1" resource="0"
+            file="Source/SessionManager.cpp"/>
+      <FILE id="XvI7qh" name="WaveformDisplay.h" compile="0" resource="0"
+            file="Source/WaveformDisplay.h"/>
+      <FILE id="KieMpr" name="WaveformDisplay.cpp" compile="1" resource="0"
+            file="Source/WaveformDisplay.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors_headless" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" appSandbox="0" appSandboxInheritance="1"
+               appSandboxOptions="com.apple.security.assets.movies.read-only,com.apple.security.assets.movies.read-write,com.apple.security.assets.music.read-only,com.apple.security.assets.music.read-write,com.apple.security.device.bluetooth,com.apple.security.device.camera,com.apple.security.device.microphone,com.apple.security.device.usb,com.apple.security.files.downloads.read-only,com.apple.security.files.downloads.read-write,com.apple.security.files.pictures.read-only,com.apple.security.files.pictures.read-write,com.apple.security.files.user-selected.read-only,com.apple.security.files.user-selected.read-write,com.apple.security.network.client,com.apple.security.network.server,com.apple.security.personal-information.addressbook,com.apple.security.personal-information.calendars,com.apple.security.personal-information.location,com.apple.security.print,com.apple.security.temporary-exception.audio-unit-host,com.apple.security.temporary-exception.mach-lookup.global-name,com.apple.security.temporary-exception.mach-register.global-name,com.apple.security.temporary-exception.shared-preference.read-only,com.apple.security.temporary-exception.shared-preference.read-write"
+               microphonePermissionNeeded="1" microphonePermissionsText="Need mic for sampling">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="NewProject"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="NewProject"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../../../Downloads/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
